@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vamsi Valluri — AI Engineer</title>
+<link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-text">VAMSI.DEV</div>
+  <div class="loader-bar-wrap"><div class="loader-bar"></div></div>
+</div>
+
+<!-- CURSOR -->
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+
+<!-- PARTICLE CANVAS -->
+<canvas id="particle-canvas"></canvas>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">VV</div>
+  <div class="nav-links">
+    <a href="#about-section">About</a>
+    <a href="#skills-section">Skills</a>
+    <a href="#projects-section">Projects</a>
+    <a href="#contact-section">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div id="hero">
+  <div class="hero-inner">
+    <div class="hero-left">
+      <div class="hero-tag">Available for opportunities</div>
+      <h1 class="hero-name">Vamsi<br>Valluri</h1>
+      <p class="hero-role">
+        B.Tech AI @ Parul University &nbsp;·&nbsp; <span>MERN Stack</span> &nbsp;·&nbsp; Generative AI<br>
+        Backend Architecture &nbsp;·&nbsp; DSA &amp; Problem Solving
+      </p>
+      <div class="hero-cta">
+        <a href="#projects-section" class="btn-primary">View Projects ↓</a>
+        <a href="#contact-section" class="btn-outline">Get in Touch</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <div class="avatar-card">
+        <div class="ripple-ring"></div>
+        <div class="ripple-ring"></div>
+        <div class="ripple-ring"></div>
+        <div class="avatar-card-inner">
+          <div class="avatar-face">VV</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-track" id="marquee-track">
+    <div class="marquee-item">Parul University</div>
+    <div class="marquee-item">MERN Stack</div>
+    <div class="marquee-item">Generative AI</div>
+    <div class="marquee-item">Node.js</div>
+    <div class="marquee-item">React.js</div>
+    <div class="marquee-item">MongoDB</div>
+    <div class="marquee-item">JWT Auth</div>
+    <div class="marquee-item">LeetCode</div>
+    <div class="marquee-item">Open Source</div>
+    <div class="marquee-item">REST APIs</div>
+    <div class="marquee-item">Python</div>
+    <div class="marquee-item">Java DSA</div>
+    <!-- duplicate for seamless loop -->
+    <div class="marquee-item">Parul University</div>
+    <div class="marquee-item">MERN Stack</div>
+    <div class="marquee-item">Generative AI</div>
+    <div class="marquee-item">Node.js</div>
+    <div class="marquee-item">React.js</div>
+    <div class="marquee-item">MongoDB</div>
+    <div class="marquee-item">JWT Auth</div>
+    <div class="marquee-item">LeetCode</div>
+    <div class="marquee-item">Open Source</div>
+    <div class="marquee-item">REST APIs</div>
+    <div class="marquee-item">Python</div>
+    <div class="marquee-item">Java DSA</div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about-section">
+  <div class="section-tag reveal">// about.me</div>
+  <h2 class="section-title reveal">Building the<br>Future, One Stack<br>at a Time.</h2>
+  <div class="about-grid">
+    <div class="reveal from-left">
+      <p class="about-text">
+        Ambitious B.Tech Artificial Intelligence student at Parul University, specialising in backend architecture, full-stack MERN deployment, and secure workflow optimisation. Passionate about building scalable, recruiter-ready platforms with advanced AI integrations.
+      </p>
+      <p class="about-text">
+        Skilled in Java for Data Structures & Algorithms, I thrive in hackathons, open-source contributions, and competitive coding events. Detail-oriented and resilient — I turn complex problems into polished, real-world solutions.
+      </p>
+    </div>
+    <div class="about-stats reveal from-right">
+      <div class="stat-card">
+        <div class="stat-number">3+</div>
+        <div class="stat-label">Major Projects</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">500+</div>
+        <div class="stat-label">Concurrent Users</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">30%</div>
+        <div class="stat-label">DB Query Boost</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">85%</div>
+        <div class="stat-label">AI Accuracy</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills-section" style="max-width:1200px;margin:0 auto;padding:100px 5%;">
+  <div class="section-tag reveal">// skills.stack</div>
+  <h2 class="section-title reveal">Technical<br>Arsenal</h2>
+  <div class="skills-grid">
+    <div class="skill-group reveal from-left">
+      <div class="skill-group-title">Languages</div>
+      <div class="skill-item" data-pct="85">
+        <div class="skill-meta"><span class="skill-name">JavaScript</span><span class="skill-pct">85%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="85"></div></div>
+      </div>
+      <div class="skill-item" data-pct="80">
+        <div class="skill-meta"><span class="skill-name">Python</span><span class="skill-pct">80%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="80"></div></div>
+      </div>
+      <div class="skill-item" data-pct="75">
+        <div class="skill-meta"><span class="skill-name">Java (DSA)</span><span class="skill-pct">75%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="75"></div></div>
+      </div>
+      <div class="skill-item" data-pct="70">
+        <div class="skill-meta"><span class="skill-name">SQL</span><span class="skill-pct">70%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="70"></div></div>
+      </div>
+    </div>
+    <div class="skill-group reveal">
+      <div class="skill-group-title">Frameworks & Databases</div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">React.js</span><span class="skill-pct">82%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="82"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">Node.js / Express</span><span class="skill-pct">85%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="85"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">MongoDB</span><span class="skill-pct">80%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="80"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">Angular.js</span><span class="skill-pct">65%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="65"></div></div>
+      </div>
+    </div>
+    <div class="skill-group reveal from-right">
+      <div class="skill-group-title">AI & Core</div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">Generative AI</span><span class="skill-pct">78%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="78"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">REST APIs & JWT</span><span class="skill-pct">88%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="88"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">Data Structures</span><span class="skill-pct">75%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="75"></div></div>
+      </div>
+      <div class="skill-item">
+        <div class="skill-meta"><span class="skill-name">Git & GitHub</span><span class="skill-pct">85%</span></div>
+        <div class="skill-bar-bg"><div class="skill-bar-fill" data-width="85"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects-section" style="max-width:1200px;margin:0 auto;padding:100px 5%;">
+  <div class="section-tag reveal">// projects.built</div>
+  <h2 class="section-title reveal">Things I've<br>Shipped</h2>
+  <div class="projects-grid">
+
+    <div class="project-card reveal from-left">
+      <div class="project-num">01</div>
+      <div class="project-title">Heart Disease Prediction System</div>
+      <p class="project-desc">A machine-learning based predictor for heart disease risk using clinical features and classification models.</p>
+      <div class="project-tags">
+        <span class="tag">Python</span>
+        <span class="tag">ML</span>
+        <span class="tag">Scikit-Learn</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/vamsivalluri-19/Heart-Disease-Prediction-System" target="_blank" class="project-link">→ GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-num">02</div>
+      <div class="project-title">Online Quiz System</div>
+      <p class="project-desc">A full-stack quiz application supporting timed quizzes, scoring, and question management.</p>
+      <div class="project-tags">
+        <span class="tag">MERN</span>
+        <span class="tag">Auth</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/vamsivalluri-19/online-quiz-system" target="_blank" class="project-link">→ GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal from-right">
+      <div class="project-num">03</div>
+      <div class="project-title">Portfolio Website</div>
+      <p class="project-desc">Personal portfolio showcasing projects, skills, and contact information — source for this site.</p>
+      <div class="project-tags">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">Vanilla JS</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/vamsivalluri-19/Portfolio-website" target="_blank" class="project-link">→ GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal from-left">
+      <div class="project-num">04</div>
+      <div class="project-title">SmartCrop</div>
+      <p class="project-desc">Agriculture-focused app that analyses crop health and suggests actions using satellite data and ML.</p>
+      <div class="project-tags">
+        <span class="tag">Python</span>
+        <span class="tag">AI</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/vamsivalluri-19/SmartCrop" target="_blank" class="project-link">→ GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-num">05</div>
+      <div class="project-title">AI Placement Portal</div>
+      <p class="project-desc">Placement portal with AI-assisted candidate matching and recruiter workflows.</p>
+      <div class="project-tags">
+        <span class="tag">MERN</span>
+        <span class="tag">AI</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/vamsivalluri-19/ai-placement-portal" target="_blank" class="project-link">→ GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal from-right">
+      <div class="project-num">06</div>
+      <div class="project-title">Calculator</div>
+      <p class="project-desc">A lightweight calculator project demonstrating UI and core JS logic.</p>
+      <div class="project-tags">
+        <span class="tag">JavaScript</span>
+        <span class="tag">UI</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/vamsivalluri-19/calculator" target="_blank" class="project-link">→ GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal from-left">
+      <div class="project-num">07</div>
+      <div class="project-title">Online Job Portal</div>
+      <p class="project-desc">Job portal connecting candidates and recruiters with job listings and application flows.</p>
+      <div class="project-tags">
+        <span class="tag">MERN</span>
+        <span class="tag">Jobs</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/vamsivalluri-19/online-job-portal" target="_blank" class="project-link">→ GitHub</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section style="max-width:1200px;margin:0 auto;padding:100px 5%;">
+  <div class="section-tag reveal">// certifications</div>
+  <h2 class="section-title reveal">Credentials</h2>
+  <div class="certs-grid">
+    <div class="cert-card reveal from-left">
+      <div class="cert-icon">🌐</div>
+      <div class="cert-title">Full Stack Web Development</div>
+      <div class="cert-issuer">Udemy &nbsp;·&nbsp; January 2025</div>
+    </div>
+    <div class="cert-card reveal from-right">
+      <div class="cert-icon">🗄️</div>
+      <div class="cert-title">SQL & Database Management</div>
+      <div class="cert-issuer">Udemy &nbsp;·&nbsp; August 2024</div>
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section style="max-width:1200px;margin:0 auto;padding:100px 5%;">
+  <div class="section-tag reveal">// education.timeline</div>
+  <h2 class="section-title reveal">Academic<br>Journey</h2>
+  <div class="edu-timeline">
+    <div class="edu-item reveal from-left">
+      <div class="edu-year">2023 – 2027</div>
+      <div class="edu-info">
+        <div class="edu-degree">B.Tech — Artificial Intelligence</div>
+        <div class="edu-school">Parul University</div>
+        <div class="edu-grade">CGPA: 7.62 / 10.0</div>
+      </div>
+    </div>
+    <div class="edu-item reveal from-left">
+      <div class="edu-year">2021 – 2023</div>
+      <div class="edu-info">
+        <div class="edu-degree">Intermediate — Class XII</div>
+        <div class="edu-school">Oxford Junior College</div>
+        <div class="edu-grade">Grade: 78.6%</div>
+      </div>
+    </div>
+    <div class="edu-item reveal from-left">
+      <div class="edu-year">2020 – 2021</div>
+      <div class="edu-info">
+        <div class="edu-degree">Matriculation — Class X</div>
+        <div class="edu-school">Scholars High School</div>
+        <div class="edu-grade">Grade: 99.0%</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact-section" style="max-width:100%;padding:100px 5% 160px;">
+  <div class="contact-glow"></div>
+  <div class="contact-rings">
+    <div class="contact-ring"></div>
+    <div class="contact-ring"></div>
+    <div class="contact-ring"></div>
+  </div>
+  <div class="section-tag reveal" style="justify-content:center;display:flex;">// contact.open</div>
+  <h2 class="contact-title reveal">Let's Build<br>Something.</h2>
+  <p class="contact-sub reveal">Open to internships, collaborations & full-time roles.</p>
+  <div class="contact-links reveal">
+    <a href="mailto:vamsivalluri52@gmail.com" class="contact-link">
+      <span>✉</span> vamsivalluri52@gmail.com
+    </a>
+    <a href="tel:+916301231575" class="contact-link">
+      <span>📞</span> +91 63012 31575
+    </a>
+    <a href="https://linkedin.com" target="_blank" class="contact-link">
+      <span>in</span> LinkedIn
+    </a>
+    <a href="https://github.com" target="_blank" class="contact-link">
+      <span>⌥</span> GitHub
+    </a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Valluri Vamsi &nbsp;·&nbsp; Crafted with vanilla HTML, CSS & JS
+</footer>
+
+<script src="js/script.js" defer></script>
+</body>
+</html>
